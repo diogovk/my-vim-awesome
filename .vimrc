@@ -25,8 +25,8 @@ Plugin 'elixir-lang/vim-elixir'
 " Elixir advanced code completion and jump to definition
 Plugin 'slashmili/alchemist.vim'
 let g:alchemist#elixir_erlang_src = "/usr/src/elixir"
+" If you want completition in the test/ directory, change .vim/bundle/alchemist.vim/alchemist.py from --env=dev to --env=test
 
-"Plugin 'ctags.vim'
 
 
 " Now we can turn our filetype functionality back on
